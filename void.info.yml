@@ -1,0 +1,22 @@
+name: void
+type: theme
+"base theme": stable9
+starterkit: true
+version: VERSION
+libraries:
+  - void/base
+  - void/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - void/user
+  core/drupal.dropbutton:
+    - void/dropbutton
+  core/drupal.dialog:
+    - void/dialog
+  file/drupal.file:
+    - void/file
+  core/drupal.progress:
+    - void/progress
+core_version_requirement: ^9.4 || ^10
+generator: "starterkit_theme:10.0.0"

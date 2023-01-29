@@ -1,0 +1,140 @@
+.page {
+  font-family: Arial, Helvetica, sans-serif;
+  .navbar {
+    padding: 10px 40px;
+    //border: 1px solid rgb(205, 202, 226);
+    background-color: #fefff6;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    .logo {
+      text-align: center;
+      a {
+        font-family: fantasy;
+        color: rgb(99, 129, 163);
+        font-size: 24px;
+        text-decoration: none;
+        transition: 2s;
+      }
+      a:hover {
+        color: rgb(80, 117, 159);
+      }
+    }
+    .menu {
+      margin: auto 0px;
+      nav {
+        ul {
+          margin: 0;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+          gap: 10px;
+          list-style: none;
+          padding-left: 0;
+          text-align: center;
+          li {
+            a {
+              display: block;
+              width: 100%;
+              padding-top: 5px;
+              padding-bottom: 5px;
+              font-size: 14px;
+              border-radius: 2px;
+              background-color: rgb(99, 129, 163);
+              color: rgb(233, 238, 241);
+              transition: 0.1s;
+              text-decoration: none;
+              border-radius: 10px;
+            }
+            a:hover {
+              background-color: rgb(114, 137, 164);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .alert {
+    text-align: centers;
+    font-size: 12px;
+    color: rgb(205, 202, 226);
+    padding: 5px 0px 5px 40px;
+    background-color: #fefff6;
+    border: 1px solid rgb(205, 202, 226);
+  }
+  .header,
+  .highlighted,
+  .breadcrumb,
+  .primary_menu,
+  .secondary_menu,
+  .footer,
+  .help {
+    font-size: 10px;
+    color: rgb(205, 202, 226);
+    margin: 10px 10px;
+    border-radius: 10px;
+    padding: 10px 50px;
+    border: 1px solid rgb(205, 202, 226);
+  }
+
+  .content,
+  .left_sidebar,
+  .right_sidebar {
+    font-size: 10px;
+    color: rgb(205, 202, 226);
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgb(205, 202, 226);
+  }
+  .box {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    margin: 0px 10px;
+  }
+
+  .user-login-form {
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid rgb(221, 218, 218);
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px 0px;
+    margin: 30px 25%;
+    #edit-name--description {
+      display: none;
+    }
+    #edit-pass--description {
+      display: none;
+    }
+    input[type="text"] {
+      height: 40px;
+      width: 50%;
+      border: 1px solid rgb(221, 218, 218);
+      background-color: aliceblue;
+      border-radius: 10px;
+      text-align: center;
+    }
+    input[type="password"] {
+      height: 40px;
+      width: 50%;
+      border: 1px solid rgb(221, 218, 218);
+      background-color: aliceblue;
+      border-radius: 10px;
+      text-align: center;
+    }
+    input[type="submit"] {
+      margin-left: 83px;
+      height: 40px;
+      width: 50.7%;
+      border: 1px solid rgb(221, 218, 218);
+      background-color: aliceblue;
+      border-radius: 10px;
+      background-color: rgb(30, 117, 232);
+      color: aliceblue;
+      transition: 2s;
+    }
+    input[type="submit"]:hover {
+      background-color: rgb(80, 98, 119);
+    }
+  }
+}
