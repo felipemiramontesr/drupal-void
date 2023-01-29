@@ -11,7 +11,7 @@
       a {
         font-family: fantasy;
         color: rgb(99, 129, 163);
-        font-size: 24px;
+        font-size: 42px;
         text-decoration: none;
         transition: 2s;
       }
@@ -38,14 +38,15 @@
               padding-bottom: 5px;
               font-size: 14px;
               border-radius: 2px;
-              background-color: rgb(99, 129, 163);
+              background-color: #6381a3;
               color: rgb(233, 238, 241);
-              transition: 0.1s;
+              transition: 1s;
               text-decoration: none;
               border-radius: 10px;
+              border: 3px solid #6381a3;
             }
             a:hover {
-              background-color: rgb(114, 137, 164);
+              border: 3px solid #535354;
             }
           }
         }
@@ -95,11 +96,10 @@
   .user-login-form {
     font-size: 14px;
     text-align: center;
-    border: 1px solid rgb(221, 218, 218);
-    background-color: aliceblue;
+    background-color: #fefff6;
     border-radius: 10px;
     padding: 20px 0px;
-    margin: 30px 25%;
+    margin: 10px;
     #edit-name--description {
       display: none;
     }
@@ -107,19 +107,17 @@
       display: none;
     }
     input[type="text"] {
-      height: 40px;
+      height: 24px;
       width: 50%;
       border: 1px solid rgb(221, 218, 218);
-      background-color: aliceblue;
-      border-radius: 10px;
+      border-radius: 5px;
       text-align: center;
     }
     input[type="password"] {
-      height: 40px;
+      height: 24px;
       width: 50%;
       border: 1px solid rgb(221, 218, 218);
-      background-color: aliceblue;
-      border-radius: 10px;
+      border-radius: 5px;
       text-align: center;
     }
     input[type="submit"] {
@@ -127,10 +125,9 @@
       height: 40px;
       width: 50.7%;
       border: 1px solid rgb(221, 218, 218);
-      background-color: aliceblue;
-      border-radius: 10px;
-      background-color: rgb(30, 117, 232);
-      color: aliceblue;
+      border-radius: 5px;
+      background-color: #6381a3;
+      color: rgb(255, 255, 255);
       transition: 2s;
     }
     input[type="submit"]:hover {
